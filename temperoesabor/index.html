@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionando...</title>
+    <script>
+        (function() {
+            // Preserva query strings e hash se houver
+            var search = window.location.search;
+            var hash = window.location.hash;
+            var targetUrl = 'https://pediragora.store/temperoesabor' + search + hash;
+            
+            // Redirecionamento imediato (301 equivalente)
+            window.location.replace(targetUrl);
+        })();
+    </script>
+    <meta http-equiv="refresh" content="0; url=https://pediragora.store/temperoesabor">
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; padding: 50px;">
+    <p>Redirecionando para <a href="https://pediragora.store/temperoesabor">pediragora.store/temperoesabor</a>...</p>
+</body>
+</html>
